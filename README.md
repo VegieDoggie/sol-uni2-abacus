@@ -21,6 +21,12 @@ npx hardhat --network bscTest run script/deploy.ts
 ```
 2. 测试样例
 > 详见 test/test.ts
+```cmd
+错误代码: 无
+买税: 0.00%
+卖税: 0.00%
+路由税: 0.20%
+```
 ```ts
 class Abacus {
     web3: Web3
