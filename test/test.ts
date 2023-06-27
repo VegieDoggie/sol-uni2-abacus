@@ -56,5 +56,5 @@ class Abacus {
     };
     let abacus = new Abacus(config.Rpc, config.Router, config.Abacus, config.WETH);
     let res = await abacus.check(2n * 10n ** 18n, config.CAKE, 10n ** 17n)
-    console.log(`错误: ${res.errcode == 0 ? "无" : res.errcode} \n买税: ${res.buy}% 卖税: ${res.sell}% 路由税: ${res.router}%`);
+    console.log(`错误代码: ${res.errcode == 0 ? "无" : res.errcode} \n买税: ${res.buy}% \n卖税: ${res.sell}% \n路由税: ${res.router}%`);
 })();
