@@ -1,0 +1,20 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+.idea
+
+# remixd
+contracts/.deps
+contracts/artifacts
+
+# compile
+abi
+abi-pretty
